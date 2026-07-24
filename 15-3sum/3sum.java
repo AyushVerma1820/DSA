@@ -13,9 +13,7 @@ class Solution {
             while(j<k)
             {
                 int s=nums[i]+nums[j]+nums[k];
-                if(s<0)
-                
-                {
+                if(s<0){
                     j++;
                 }
                 else if(s>0)
