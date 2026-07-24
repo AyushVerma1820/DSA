@@ -19,8 +19,7 @@ class Solution {
                 else if(s>0){
                     k--;
                 }
-                else
-                {
+                else{
                     l.add(Arrays.asList(nums[i],nums[j],nums[k]));
                     while(j<k && nums[j]==nums[j+1])
                     j++;
