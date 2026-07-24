@@ -10,8 +10,7 @@ class Solution {
             }
             int j=i+1;
             int k=nums.length-1;
-            while(j<k)
-            {
+            while(j<k){
                 int s=nums[i]+nums[j]+nums[k];
                 if(s<0){
                     j++;
