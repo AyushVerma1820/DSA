@@ -14,6 +14,7 @@ class Solution {
             {
                 int s=nums[i]+nums[j]+nums[k];
                 if(s<0)
+                
                 {
                     j++;
                 }
