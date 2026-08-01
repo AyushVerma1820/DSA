@@ -12,7 +12,6 @@ class Solution {
             "X", "IX", "V", "IV",
             "I"
         };
-        
         StringBuilder result = new StringBuilder();
         for (int i = 0; i < val.length; i++) {
             while (num >= val[i]) {
@@ -20,7 +19,6 @@ class Solution {
                 result.append(syms[i]);
             }
         }
-        
         return result.toString();
     }
 }
