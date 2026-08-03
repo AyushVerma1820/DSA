@@ -4,7 +4,6 @@ class Solution {
         int i = a.length() - 1;
         int j = b.length() - 1;
         int carry = 0;
-
         while (i >= 0 || j >= 0 || carry != 0) {
             int total = carry;
             if (i >= 0) {
@@ -15,11 +14,9 @@ class Solution {
                 total += b.charAt(j) - '0';
                 j--;
             }
-
             result.append(total % 2);
             carry = total / 2;
         }
-
         return result.reverse().toString();
     }
 }
