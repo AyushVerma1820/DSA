@@ -10,6 +10,7 @@ class Solution {
                 total += a.charAt(i) - '0';
                 i--;
             }
+            
             if (j >= 0) {
                 total += b.charAt(j) - '0';
                 j--;
